@@ -1,0 +1,50 @@
+.heading{
+    font-size:23px;
+    width:100%;
+    margin:0px;
+    box-shadow: 5px 5px 5px grey;
+    height:20%;
+}
+
+.heading_div{
+    float:none;
+    background: white;
+    padding:10px;
+    border-radius: 20px;
+    color:black;
+    box-shadow: 5px 5px 5px grey;
+}
+.heading_div2{
+    font-size:18px;
+}
+
+.result_para{
+    box-shadow: 5px 5px 5px grey;
+    font-size:18px;
+}
+
+.copy_right{
+    position:fixed;
+    color:white;
+    bottom:0;
+    width:100%;
+    background: gray;
+    line-height: 3;
+    text-align: center;
+}
+
+
+canvas{
+    border:2px solid black;
+    border-radius:20%;
+    margin-top:120px;
+    animation-name:animate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    box-shadow: 5px 5px 5px grey;
+    
+}
+@keyframes animate {
+from {box-shadow: 5px 5px 5px red;}
+to {box-shadow: 5px 5px 5px yellow;}
+}
